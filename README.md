@@ -38,6 +38,14 @@ cd imparatorgeminichatbotwebsite
 npm install
 ```
 
+### 4. API keyini ekleyin
+
+```bash
+.env dosyasında dosyayı şu şekilde düzenleyin
+VITE_GEMINI_API_KEY='seninapikeyin"
+```
+
+
 ### 4. Ardından Sitenizi çalıştırın
 
 ```bash
