@@ -9,3 +9,42 @@ body {
 .chat-container {
   max-height: calc(100vh - 200px);
 }
+
+/* Dark mode styles */
+.dark {
+  @apply bg-gray-900 text-gray-100;
+}
+
+.dark .chat-container {
+  @apply bg-gray-800;
+}
+
+/* Scrollbar styles */
+.chat-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.chat-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.dark .chat-container::-webkit-scrollbar-track {
+  background: #2d3748;
+}
+
+.dark .chat-container::-webkit-scrollbar-thumb {
+  background: #4a5568;
+}
+
+.dark .chat-container::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
